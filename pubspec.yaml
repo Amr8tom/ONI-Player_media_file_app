@@ -1,0 +1,96 @@
+name: oniplayer
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.2+4
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+#  helpers: ^1.2.0
+  get:
+#  better_player: ^0.0.83
+  better_player:
+
+  sqflite:
+  lottie:
+  screen_brightness:
+  volume_controller: # Make sure to use the correct version
+  wakelock: # Make sure to use the correct version  floating:
+  permission_handler:
+  flutter_user_agentx:
+  double_back_to_close_app:
+  video_thumbnail:
+  uri_to_file:
+  url_launcher:
+  fraction:
+  in_app_review:
+  firebase_core:
+  firebase_remote_config:
+  firebase_analytics:
+  flutter_lifecycle_detector:
+  facebook_audience_network:
+  flutter_native_splash:
+#  package_info_plus:
+  firebase_crashlytics:
+  getter:
+  receive_intent:
+#  path:
+  encrypt:
+#  google_fonts:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  flutter_lints:
+  change_app_package_name:
+  # ---------------------------------------------------------------------------- #
+  #                disable this and enable flutter_native_splash above when you done generating your icon               #
+  # ---------------------------------------------------------------------------- #
+  # flutter_launcher_icons:
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animation/
+    - assets/icons/
+    - assets/images/
+
+# ---------------------------------------------------------------------------- #
+#                                 Splash Screen                                #
+# ---------------------------------------------------------------------------- #
+#command :  flutter pub run flutter_native_splash:create
+flutter_native_splash:
+  color: "#000000"
+  image: assets/icons/logo.png
+  # branding: assets/icons/branding.png
+  # branding_mode: bottom
+
+  android_12:
+    color: "#000000"
+    icon_background_color: "#008FF9"
+    image: assets/icons/icon.png
+    # branding: assets/icons/branding.png
+    # branding_mode: bottom
+
+# ---------------------------------------------------------------------------- #
+#                                   App Icon                                   #
+# ---------------------------------------------------------------------------- #
+#command : flutter pub run flutter_launcher_icons
+flutter_icons:
+  android: true
+  image_path: "assets/icons/icon.png"
+
+
+
+# ---------------------------------------------------------------------------- #
+#                              change package name                             #
+# ---------------------------------------------------------------------------- #
+#command : flutter pub run change_app_package_name:main com.new.package.name
+

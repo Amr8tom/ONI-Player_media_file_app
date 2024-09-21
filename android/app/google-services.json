@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "254758534241",
+    "project_id": "oni-player-f9e5d",
+    "storage_bucket": "oni-player-f9e5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254758534241:android:7e1bd781be89ee33447e20",
+        "android_client_info": {
+          "package_name": "com.oniplayer.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254758534241-pc7qkj9qmqmb2p52c7pc1u84horsg30t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkKFR_BIigu2crPhiFIZJsgFBJvs0VRjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254758534241-pc7qkj9qmqmb2p52c7pc1u84horsg30t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
